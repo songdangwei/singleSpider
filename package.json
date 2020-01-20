@@ -1,0 +1,21 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/mn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/mn.js"
+  },
+  "compilerOptions": {
+    "target": "ES8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.7",
+    "chalk": "^3.0.0",
+    "mongodb": "^3.5.0",
+    "puppeteer": "^2.0.0"
+  }
+}
